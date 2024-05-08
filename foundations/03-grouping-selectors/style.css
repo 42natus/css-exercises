@@ -1,0 +1,15 @@
+.pos-button,
+.neg-button {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.pos-button {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.neg-button {
+    background-color: rgb(255, 255, 0);
+}
