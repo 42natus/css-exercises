@@ -8,12 +8,11 @@
     font-size: 36px;
 }
 
-#element-four {
-    background-color: rgb(125, 232, 125);
+.set-font-size {
     font-size: 24px;
-    font-weight: bold;
 }
 
-.odd-num.element-three {
-    font-size: 24px;
+#element-four {
+    background-color: rgb(125, 232, 125);
+    font-weight: bold;
 }
