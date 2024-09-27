@@ -21,7 +21,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 18px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -70,29 +71,19 @@ button.cancel {
   color: royalblue;
 }
 
-.container-one {
-  display: flex;
-  gap: 12px;
-}
-
-.message {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  max-width: 425px;
-}
-
-.header-close {
-  display: flex;
-  justify-content: space-between;
-}
-
-.continue-cancel {
-  display: flex;
-  gap: 5px;
+.icon {
+  flex-shrink: 0;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
