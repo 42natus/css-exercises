@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+    background-color: rgb(245, 174, 156);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odd.cooler {
+    font-size: 24px;
+}
+
+#one {
+    color: hsl(240, 84%, 45%);
+    font-size: 36px;
+}
+
+#two {
+    background-color: #71ec86;
+    font-size: 24px;
+    font-weight: 700;
+}
