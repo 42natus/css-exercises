@@ -38,6 +38,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 16px;
 }
 
 .container {
@@ -59,4 +61,11 @@ a {
 
 li {
   margin-bottom: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 36px;
 }
