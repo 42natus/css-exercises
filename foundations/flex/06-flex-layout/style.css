@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -55,4 +56,9 @@ a {
 
 .footer {
   background-color: #eeeeee;
+}
+
+.input, 
+img {
+  margin-bottom: 16px;
 }
