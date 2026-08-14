@@ -60,12 +60,12 @@ a {
 }
 
 li {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  gap: 36px;
+  gap: 32px;
 }
