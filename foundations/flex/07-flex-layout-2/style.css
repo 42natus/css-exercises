@@ -34,3 +34,14 @@ body {
   display: flex;
   flex: 1;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #F5F8FE;
+}
