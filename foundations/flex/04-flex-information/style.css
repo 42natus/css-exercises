@@ -22,12 +22,18 @@ img {
 .info-group {
   display: flex;
   gap: 52px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .plant-info {
   width: 200px;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
