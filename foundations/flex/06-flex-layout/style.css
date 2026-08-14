@@ -34,6 +34,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
@@ -45,13 +47,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 18px;
-}
-
-.left-links,
-.right-links {
-  display: flex;
-  gap: 16px;
+  padding: 16px;
 }
 
 .footer {
